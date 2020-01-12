@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+@font-face{
+  font-family: "myfont";
+  src: url("fonts/odstemplik/odstemplik.otf") format("opentype"), url("fonts/odstemplik/odstemplikBold.otf") format("opentype");
+}
+
+.top-img{
+  background-image: url("imgs/top.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.top-text{
+  text-align: center;
+  padding: 280px 0;
+}
+
+.top-text h1{
+  font-size: 100px;
+  font-family: "myfont";
+}
+
+nav h3{
+  font-family: "myfont";
+}
+
+nav .fas{
+  color: #888;
+}
+
+.night-sky{
+  background-image: url("imgs/fix-bg.jpg");
+  padding: 50px 0 200px 0;
+  background-attachment: fixed;
+}
+
+.me{
+  width: 400px;
+}
+
+.myself{
+  text-align: center;
+}
+
+.night-sky h2{
+  font-family: "myfont";
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.d-block{
+  height: 500px;
+  background-size: cover;
+}
+
+.service-list{
+  background-color: #333;
+  padding: 50px;
+}
+
+.service-list h2{
+  text-align: center;
+  font-size: 80px;
+  font-family: "myfont";
+}
+
+.service-img{
+  width: 100%;
+  height: 299.81px
+}
+
+.servise-description{
+  padding: 30px;
+}
+
+.row{
+  margin-top: 50px;
+}
+
+.info{
+  border: solid 2px white;
+  margin: 20px;
+  padding: 20x;
+  text-align: center;
+}
+
+.icon{
+  font-size: 100px;
+}
+
+.button:hover{
+  text-decoration: none;
+
+}
+
+footer{
+  background-color: #333;
+  padding: 30px;
+}
+
+footer p{
+  text-align: right;
+}
+
+footer ul li{
+  list-style: none;
+}
+
+footer ul li a{
+  color:#aaa;
+  font-size: 15px;
+}
+
+footer ul li a:hover{
+  color: #fff;
+  text-decoration: none;
+}
