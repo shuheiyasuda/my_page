@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mypage</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="https://kit.fontawesome.com/b4344cebf2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <div class="top-img">
+      <div class="top-text">
+        <h1>Shuhei Yasuda</h1>
+        <h2>メンタル強め</h2>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="#"><h3>mypage</h3></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutme"><i class="fas fa-lightbulb"></i> About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio"><i class="fas fa-list-ul"></i> Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#information"><i class="fas fa-info-circle"></i> Information</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class= "night-sky" id="aboutme">
+    <h2>About Me</h2>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 myself" >
+          <img src="imgs/me.JPG" class="me">
+          <h3>Shuhei Yasuda</h3>
+          <p>26歳 神奈川県在住</p>
+        </div>
+
+        <div class="col-md-6 myself">
+          <h3>Career</h3>
+          <p>2012. 3  秋田市立秋田商業高等学校 卒業</p>
+          <p>2012. 4  関東学院大学 経済学部経営学科 入学</p>
+          <p>2016. 3  関東学院大学 経済学部経営学科 卒業</p>
+          <p>2016. 4  コーチ・ジャパン合同会社 入社</p>
+          <p>2018. 8  コーチ・ジャパン合同会社 退社</p>
+          <h3>Skill</h3>
+          <p>HTML|CSS|Ruby|Ruby on Rails|JavaScript|jQuery|SQL|Git|Github</p>
+          <h3>MyStory</h3>
+          <p>高校時代は硬式野球、大学時代はアメリカンフットボール部に所属。ファッションが好きで約2年半コーチで勤務。退職後、プログラマーという職業を知る。
+            自分の作ったサービスが世の中の人に利用していただけることに魅力を感じ、すぐにPCと動画教材を購入し独学で学習。その後TECH::EXPERTに入校し本格的にしエンジニアを目指す。</p>
+        </div>
+
+      </div>
+    </div>
+  
+  </div>
+
+  <div class="service-list" id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-md-1">
+          <img src="imgs/my_page.png" class="service-img">
+        </div>
+        <div class="col-md-6 servise-description order-md-2">
+          <h3>MyPage(自己紹介ページ)</h3>
+          <hr color="white">
+          <p>このページです。</p>
+          <a href="" class="btn btn-outline-secondary">詳細</a>
+        </div>
+
+        <div class="col-md-6 order-md-4" id="fmt">
+          <img src="imgs/freem.png" class="service-img">
+        </div>
+        <div class="col-md-6 servise-description order-md-3">
+          <h3>FreeMarket Sample</h3>
+          <hr color="white">
+          <p>TECH::EXPERTの最終課題である"チーム開発"にて５名のメンバーで開発。<br>主にDB設計と商品出品画面の実装を担当しました。</p>
+          <a href="http://52.192.56.173/" class="btn btn-outline-secondary">FreeMarket Sampleへ</a>
+        </div>
+
+        <div class="col-md-6 order-md-5" id="myblog">
+          <img src="imgs/my_blog.png" class="service-img">
+        </div>
+        <div class="col-md-6 servise-description order-md-6">
+          <h3>MyBlog</h3>
+          <hr color="white">
+          <p>ブログアプリです。生活、暮らし、仕事、趣味などカテゴリ別で投稿できます。</p>
+          <a href="http://18.177.220.151/" class="btn btn-outline-secondary">MyBlogへ</a>
+          <a href="https://github.com/shuheiyasuda/my_blog" class="btn btn-outline-secondary">Githubへ</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class= "night-sky" id="information">
+    <h2>Information</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="https://twitter.com/yasu_canes07" class="button">
+            <div class="info">
+              <div class="icon">
+                <i class="fab fa-twitter"></i>
+              </div>
+              <p>Twitterアカウント</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="https://line.me/ti/p/4D8Czrqgrd" class="button">
+            <div class="info">
+              <div class="icon">
+                <i class="fab fa-line"></i>
+              </div>
+              <p>LINEアカウント</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="" class="button">
+            <div class="info">
+              <div class="icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <p>ブログ</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="#aboutme">About Me</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#information">Information</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+              <ul>
+                <li>Portfolio</li>
+                <li><a href="#portfolio">MyPage</a></li>
+                <li><a href="#fmt">FreeMarket sample</a></li>
+                <li><a href="#myblog">MyBlog</a></li>
+              </ul>
+          </div>
+
+          <div class="col-md-4">
+            <ul>
+              <li><a href="https://twitter.com/yasu_canes07">Twitter</a></li>
+              <li><a href="https://line.me/ti/p/4D8Czrqgrd">LINE</a></li>
+              <li><a href="">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p>&copy; 2020 Mypage</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
